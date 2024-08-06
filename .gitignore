@@ -1,0 +1,11 @@
+__pycache__
+.vscode
+.ipynb_checkpoints
+.DS_Store
+
+# logs and storaged data
+debug
+log*/
+
+# MineCLIP model weights
+adjust.pth

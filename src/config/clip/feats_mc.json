@@ -1,0 +1,16 @@
+{
+    "obs_emb": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "input_dim": 512
+        }
+    },
+    "fuse": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "hiddens": [512],
+            "activation": "ReLU",
+            "final_activation": "ReLU"
+        }
+    }
+}

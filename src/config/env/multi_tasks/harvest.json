@@ -1,0 +1,27 @@
+{
+    "initial_mobs": [
+        "cow",
+        "sheep",
+        "pig"
+    ],
+    "number_mobs": 1,
+    "mob_spawn_range": 10,
+    "target_names": [
+        "milk",
+        "wool",
+        "flower",
+        "leaves"
+    ],
+    "reset_cmds": [
+        ["/give @p minecraft:bucket"],
+        ["/give @p minecraft:shears"],
+        null,
+        ["/give @p minecraft:shears"]
+    ],
+    "mineclip_prompts": [
+        "obtain milk from a cow in plains with an empty bucket",
+        "shear a sheep in plains with shears",
+        "collect a flower in flower forest",
+        "collect leaves in flower forest"
+    ]
+}

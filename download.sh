@@ -1,0 +1,1 @@
+gdown https://drive.google.com/uc?id=1uaZM1ZLBz2dZWcn85rZmjP7LV6Sg5PZW -O src/others/mineclip_official/adjust.pth

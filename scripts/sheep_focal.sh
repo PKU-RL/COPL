@@ -1,0 +1,13 @@
+python -m src.train \
+--multi_task_config src/config/env/single_task/combat_sheep_1.json \
+--target_index -1 \
+--force_slow_reset_interval 50 \
+--n_envs 4 --use_parallel --serial_start \
+--n_steps 1000 \
+--n_timesteps 1000000 \
+--algo focal \
+--extractor_config src/config/clip/feats_all.json \
+--extrinsic_reward_coef 100.0 \
+--intrinsic_reward_coef 5.0 \
+--log_dir log_test/ \
+--seed $1

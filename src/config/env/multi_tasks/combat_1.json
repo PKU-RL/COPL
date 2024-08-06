@@ -1,0 +1,28 @@
+{
+    "initial_mobs": [
+        "cow",
+        "sheep",
+        "pig",
+        "chicken"
+    ],
+    "number_mobs": 1,
+    "mob_spawn_range": 10,
+    "target_names": [
+        "cow",
+        "sheep",
+        "pig",
+        "chicken"
+    ],
+    "reset_cmds": [
+        ["/give @p minecraft:diamond_sword 1 0"],
+        ["/give @p minecraft:diamond_sword 1 0"],
+        ["/give @p minecraft:diamond_sword 1 0"],
+        ["/give @p minecraft:diamond_sword 1 0"]
+    ],
+    "mineclip_prompts": [
+        "hunt a cow in plains with a diamond sword",
+        "hunt a sheep in plains with a diamond sword",
+        "hunt a pig in plains with a diamond sword",
+        "hunt a chicken in plains with a diamond sword"
+    ]
+}

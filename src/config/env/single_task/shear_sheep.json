@@ -1,0 +1,18 @@
+{
+    "initial_mobs": [
+        "cow",
+        "sheep",
+        "pig"
+    ],
+    "number_mobs": 1,
+    "mob_spawn_range": 10,
+    "target_names": [
+        "wool"
+    ],
+    "reset_cmds": [
+        ["/give @p minecraft:shears"]
+    ],
+    "mineclip_prompts": [
+        "shear a sheep in plains with shears"
+    ]
+}

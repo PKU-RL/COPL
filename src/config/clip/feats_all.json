@@ -1,0 +1,59 @@
+{
+    "compass": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "input_dim": 4,
+            "hiddens": [128, 128, 128],
+            "activation": "ReLU"
+        }
+    },
+    "gps": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "input_dim": 3,
+            "hiddens": [128, 128, 128],
+            "activation": "ReLU"
+        }
+    },
+    "voxels": {
+        "extractor": "emb_mlp",
+        "extractor_kwargs": {
+            "input_n": 27,
+            "num_emb": 32,
+            "emb_dim": 8,
+            "padding_idx": 0,
+            "hiddens": [128, 128, 128],
+            "activation": "ReLU"
+        }
+    },
+    "biome_id": {
+        "extractor": "emb_mlp",
+        "extractor_kwargs": {
+            "input_n": 1,
+            "num_emb": 168,
+            "emb_dim": 8
+        }
+    },
+    "prev_action": {
+        "extractor": "emb_mlp",
+        "extractor_kwargs": {
+            "input_n": 1,
+            "num_emb": 108,
+            "emb_dim": 8
+        }
+    },
+    "obs_emb": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "input_dim": 512
+        }
+    },
+    "fuse": {
+        "extractor": "mlp",
+        "extractor_kwargs": {
+            "hiddens": [512],
+            "activation": "ReLU",
+            "final_activation": "ReLU"
+        }
+    }
+}

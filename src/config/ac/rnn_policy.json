@@ -1,0 +1,6 @@
+{
+    "use_rnn": true,
+    "rnn_hidden": 256,
+    "actor_hiddens": [256, 256, 256],
+    "critic_hiddens": [256, 256, 256]
+}

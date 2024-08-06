@@ -1,0 +1,15 @@
+python -m src.train \
+--target_index -1 \
+--force_slow_reset_interval 50 \
+--n_envs 4 --use_parallel --serial_start \
+--n_steps 2000 \
+--n_timesteps 2000000 \
+--algo focal \
+--extractor_config src/config/clip_text/feats_all_extra.json \
+--extrinsic_reward_coef 100.0 \
+--intrinsic_reward_coef 5.0 \
+--ir_argmax \
+--ir_binary 0.2 \
+--normalize_adv_mt \
+--log_dir log_test/ \
+--seed $1

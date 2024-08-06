@@ -1,0 +1,18 @@
+{
+    "initial_mobs": [
+        "cow",
+        "sheep",
+        "chicken"
+    ],
+    "number_mobs": 1,
+    "mob_spawn_range": 7,
+    "target_names": [
+        "chicken"
+    ],
+    "reset_cmds": [
+        ["/give @p minecraft:diamond_sword 1 0"]
+    ],
+    "mineclip_prompts": [
+        "hunt a chicken on plains with a diamond sword"
+    ]
+}

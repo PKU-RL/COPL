@@ -1,0 +1,18 @@
+{
+    "initial_mobs": [
+        "cow",
+        "sheep",
+        "pig"
+    ],
+    "number_mobs": 1,
+    "mob_spawn_range": 10,
+    "target_names": [
+        "milk"
+    ],
+    "reset_cmds": [
+        ["/give @p minecraft:bucket"]
+    ],
+    "mineclip_prompts": [
+        "obtain milk from a cows in plains with an empty bucket"
+    ]
+}
