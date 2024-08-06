@@ -14,9 +14,13 @@ Overview of our proposed **C**LIP-guided **O**bject-grounded **P**olicy **L**ear
 
 ### Training
 
-To train single-task RL for hunting a sheep with focal reward: run `./scripts/sheep_focal.sh 0`, where 0 is the random seed. `--multi_task_config` in the script specifies the task and it can be changed to other config files in `src/config/env/single_task` to train RL for other tasks, such as hunting a cow and hunting a pig.
+To train single-task RL for hunting a sheep with focal reward: 
 
-To train COPL for hunting domain: run `./scripts/hunt_copl.sh 0`, where 0 is the random seed. `--multi_task_config` in the script specifies the task domain and it can be changed to `src/config/env/multi_tasks/harvest.json` to train COPL for harvest domain.
+Run `./scripts/sheep_focal.sh 0`, where 0 is the random seed. `--multi_task_config` in the script specifies the task and it can be changed to other config files in `src/config/env/single_task` to train RL for other tasks, such as hunting a cow and hunting a pig.
+
+To train COPL for hunting domain: 
+
+Run `./scripts/hunt_copl.sh 0`, where 0 is the random seed. `--multi_task_config` in the script specifies the task domain and it can be changed to `src/config/env/multi_tasks/harvest.json` to train COPL for harvest domain.
 
 ### Demos
 
