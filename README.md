@@ -36,10 +36,10 @@ Here we present some videos of agents performing hunting tasks trained using COP
 If you find our work useful in your research and would like to cite our project, please use the following citation:
 
 ```latex
-@article{jiang2024visual,
+@inproceedings{jiang2024visual,
       title={Visual Grounding for Object-Level Generalization in Reinforcement Learning}, 
       author={Jiang, Haobin and Lu, Zongqing},
-      journal={arXiv preprint arXiv:2408.01942},
+      booktitle={European Conference on Computer Vision (ECCV)},
       year={2024},
 }
 ```
